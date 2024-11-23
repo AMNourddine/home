@@ -57,5 +57,5 @@ footer {
 }
 
 .centered-content {
-    max-width: 600px;
+    margin-top: -80px; /* Moves content up by 20px */
 }

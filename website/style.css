@@ -33,7 +33,11 @@ nav ul li a {
 }
 
 main {
-    padding: 2rem;
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;    /* Centers vertically */
+    height: calc(100vh - 100px); /* Subtract header/footer height from viewport */
+    text-align: center;     /* Center text inside the content area */
 }
 
 section {
@@ -48,4 +52,8 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+.centered-content {
+    max-width: 600px;
 }

@@ -33,6 +33,7 @@ nav ul li a {
 }
 
 main {
+    background-color: #000000;
     display: flex;
     justify-content: center; /* Centers horizontally */
     align-items: center;    /* Centers vertically */

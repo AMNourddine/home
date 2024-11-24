@@ -33,7 +33,9 @@ nav ul li a {
 }
 
 main {
+    background-color: #000000;
     display: flex;
+    color: white;
     justify-content: center; /* Centers horizontally */
     align-items: center;    /* Centers vertically */
     height: calc(100vh - 100px); /* Subtract header/footer height from viewport */
@@ -41,7 +43,7 @@ main {
 }
 
 section {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 footer {
@@ -55,5 +57,5 @@ footer {
 }
 
 .centered-content {
-    max-width: 600px;
+    margin-top: -80px; /* Moves content up by 20px */
 }
